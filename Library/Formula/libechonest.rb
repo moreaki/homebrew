@@ -1,6 +1,6 @@
-require 'formula'
+require 'base_kde_formula'
 
-class Libechonest < Formula
+class Libechonest < BaseKdeFormula
   homepage 'https://projects.kde.org/projects/playground/libs/libechonest'
   url 'http://files.lfranchi.com/libechonest-2.0.0.tar.bz2'
   sha1 '817a7c2b821d23edbbf6c387deefbfc6dddee66c'
